@@ -10,7 +10,7 @@
 		<parameter name="delay" value="3" />
 
 		<classes>
-			<class name="GoogleTests.InputTestCase" />
+			<class name="GoogleTests.EnterSonyWordTestCase" />
 		</classes>
 	</test>
 	<!-- Test -->
