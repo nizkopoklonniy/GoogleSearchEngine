@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleSearchEngine" parallel="none">
+	<test name="TestCaseOnSonyWord">
+		<parameter name="baseUrl" value="https://www.google.ru"/>
+		<parameter name="sonyWord" value="Sony"/>	
+		<parameter name="googleWord" value="Google"/>
+		<parameter name="delay" value="3"/>						
+		 
+		<classes>			
+			<class name="GoogleTests.InputTestCase" />
+		</classes>
+	</test> 
+	<!-- Test -->
+</suite> <!-- GoogleSearchEngine -->
